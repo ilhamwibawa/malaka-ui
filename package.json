@@ -1,6 +1,6 @@
 {
   "name": "@ilhamwibawa/malaka-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared components for Malaka UI",
   "author": "Ilham Wibawa",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "check-types": "tsc --noEmit true",
     "ci": "yarn lint && yarn test --watch=false",
     "test": "vitest --config ./vitest.config.ts",
-    "release": "yarn ci && yarn build && npm publish",
+    "release": "standard-version && yarn ci && yarn build && npm publish",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
     "storybook:deploy": "yarn storybook:build && touch ./storybook-static/.nojekyll && gh-pages -d ./storybook-static -t true"
@@ -99,6 +99,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
+    "standard-version": "^9.5.0",
     "storybook": "^7.5.2",
     "tailwind-merge": "^2.0.0",
     "tailwindcss": "^3.3.5",
