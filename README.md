@@ -1,14 +1,14 @@
-# Shared
+# Malaka UI
 
-Shared is a boilerplate for writing React Libraries bundled with Rollup.js to commonJs ,ES6 Modules, Storybookt, Tailwind CSS, Shadcn/ui.
+Malaka UI is a boilerplate for writing React Libraries bundled with Rollup.js to commonJs ,ES6 Modules, Storybookt, Tailwind CSS, Shadcn/ui.
 
 This project is a clone of [React Rollup Boilerplate](https://github.com/KaiHotz/react-rollup-boilerplate) and has been updated for Tailwind and Shadcn/ui.
 
 ## Getting started
 
 ```
-git clone git@github.com:behzadam/shared.git
-cd shared
+git clone git@github.com:ilhamwibawa/malaka-ui.git
+cd cd malaka-ui
 yarn install
 ```
 
