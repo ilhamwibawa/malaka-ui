@@ -110,5 +110,8 @@
     "vite-plugin-svgr": "^4.1.0",
     "vitest": "^1.6.0"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.0.5"
+  }
 }
