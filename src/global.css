@@ -29,19 +29,19 @@
   .dark {
     --background: 240 10% 3.92%;
     --foreground: 60 9.1% 97.8%;
-    --muted: 12 6.5% 15.1%;
+    --muted: 240 1% 50%;
     --muted-foreground: 240 0.79% 50.2%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
     --card: 0 3.33% 11.76%;
     --card-foreground: 60 9.1% 97.8%;
-    --border: 12 6.5% 15.1%;
-    --input: 12 6.5% 15.1%;
+    --border: 240 0% 20%;
+    --input: 240 0% 20%;
     --primary: 205.29 100% 52.55%;
     --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 12 6.5% 15.1%;
+    --secondary: 240 1% 50%;
     --secondary-foreground: 60 9.1% 97.8%;
-    --accent: 12 6.5% 15.1%;
+    --accent: 240 1% 50%;
     --accent-foreground: 60 9.1% 97.8%;
     --destructive: 0 72.2% 50.6%;
     --destructive-foreground: 60 9.1% 97.8%;
@@ -56,4 +56,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.docs-story {
+  @apply !bg-background !text-foreground;
 }
